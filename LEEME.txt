@@ -1,0 +1,24 @@
+FRONTÓN FÚTBOL - versión instalable (app web)
+
+Esto NO es un .ipa ni un .apk de las tiendas: es una app web instalable (PWA).
+Una vez instalada se abre a pantalla completa desde el icono, como cualquier app, y
+funciona sin conexión. Para instalarla hay que subir esta carpeta a un alojamiento web
+con https (gratis y sin cuenta de programador):
+
+1) Descomprime este zip.
+2) Sube la carpeta completa a un alojamiento estático, por ejemplo:
+   - Netlify Drop: entra en app.netlify.com/drop y arrastra la carpeta.
+   - Cloudflare Pages o GitHub Pages también sirven.
+   Te darán una dirección https.
+3) Instálala:
+   - iPhone/iPad: abre la dirección en Safari > Compartir > Añadir a pantalla de inicio.
+   - Android: abre la dirección en Chrome > menú de tres puntos > Instalar app
+     (o Añadir a pantalla de inicio).
+
+Notas
+- Tus monedas, cartas y cambios del editor se guardan en ese dispositivo.
+- El modo en línea (salas con código) solo funciona en el enlace dentro de Claude,
+  no en la versión instalada.
+- Para jugar sin hosting también puedes abrir fronton-futbol.html (el archivo suelto)
+  con Chrome en Android; en iPhone/iPad necesita una app que ejecute HTML, como
+  Documents de Readdle.
